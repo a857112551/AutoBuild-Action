@@ -12,7 +12,7 @@ AutoBuild-Actions 稳定版仓库地址: [AutoBuild-Actions-Template](https://gi
 
 | 机型 | 配置文件 | 自用 | 是否发布 |
 | :----: | :----: | :----: | :----: |
-| [x86_64](./.github/workflows/AutoBuild-x86_64.yml) | [x86_64](./Configs/x86_64) | ✅ | ❎ |
+| [x86_64](./.github/workflows/AutoBuild-x86_64.yml) | [x86_64](./Configs/x86_64) | ✅ | ✅ |
 
 ## 一、定制固件(可选)
 
