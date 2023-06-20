@@ -1,4 +1,4 @@
-# OpenWrt-Actions & One-key AutoUpdate
+# OpenWrt-Action & One-key AutoUpdate
 
 AutoBuild-Actions 稳定版仓库地址: [AutoBuild-Actions-Template](https://github.com/Hyy2001X/AutoBuild-Actions-Template)
 
@@ -68,15 +68,15 @@ AutoBuild-Actions 稳定版仓库地址: [AutoBuild-Actions-Template](https://gi
 
 ## 二、编译固件(必选)
 
-   **手动编译** 点击上方`Actions`, 在左栏选择要编译的设备,点击右方`Run workflow`再点击`绿色按钮`即可开始编译
+   **手动编译** 点击上方`操作`, 在左栏选择要编译的设备,点击右方`运行工作流程`再点击`绿色按钮`即可开始编译
 
-   **一键编译** 删除`第 29-30 行`的注释并保存, 以后点击两次右上角的 **Star** 按钮即可一键编译
+   **一键编译** 删除`第 29-30 行`的注释并保存, 以后点击两次右上角的 **星标** 按钮即可一键编译
 
    **定时编译** 删除`第 26-27 行`的注释, 然后按需修改时间并提交修改 [Corn 使用方法](https://www.runoob.com/w3cnote/linux-crontab-tasks.html)
 
-   **临时修改固件 IP 地址** 该功能仅在**手动编译**生效, 点击`Run workflow`后即可输入 IP 地址
+   **临时修改固件 IP 地址** 该功能仅在**手动编译**生效, 点击`运行工作流程`后即可输入 IP 地址
    
-   **使用其他 [.config] 配置文件** 点击`Run workflow`后即可输入位于`/Configs`下的配置文件名称
+   **使用其他 [.config] 配置文件** 点击`运行工作流程`后即可输入位于`/Configs`下的配置文件名称
 
    🔔 **为了你的账号安全, 请不要使用 SSH 连接 Github Action**, `.config`配置以及固件定制等操作请务必在本地完成 🔔
 
