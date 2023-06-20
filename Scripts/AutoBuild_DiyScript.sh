@@ -61,7 +61,7 @@ EOF
 		do
 			AddPackage svn apps luci-app-${i} immortalwrt/luci/branches/openwrt-18.06/applications
 			sed -i 's/..\/..\//\$\(TOPDIR\)\/feeds\/luci\//g' ${WORK}/package/apps/luci-app-${i}/Makefile
-		已完成 ; unset i
+		done ; unset i
 
 		rm -r ${FEEDS_LUCI}/luci-theme-argon*
 		AddPackage git themes luci-theme-argon jerrykuku 18.06
