@@ -55,6 +55,7 @@ EOF
 		sed -i "s?/bin/login?/usr/libexec/login.sh?g" ${FEEDS_PKG}/ttyd/files/ttyd.config
 		# sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 		# sed -i '/uci commit luci/i\uci set luci.main.mediaurlbase="/luci-static/argon-mod"' $(PKG_Finder d package default-settings)/files/zzz-default-settings
+                sed -i "/CYXluq4wUazHjmCDBCqXF/d" $(PKG_Finder d package default-settings)/files/zzz-default-settings
 		
 		for i in eqos mentohust minieap unblockneteasemusic
 		do
